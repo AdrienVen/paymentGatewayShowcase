@@ -5,5 +5,5 @@ The [.js files](/showcase/src/components/scripts) were adapted from the [authori
 
 The [.vue files](/showcase/src/components/) were part of a much larger ecosystem of views and components,
 thus they did not render in their initial state. After a little bit of work, I am proud to announce
-that I have succesfully integrated them in a [minimalist vue app](/showcase/dist/index.html) which is now yours for
+that I have succesfully integrated them in a [minimalist vue app](https://adrienven.github.io/paymentGatewayShowcase/showcase/dist/index.html) which is now yours for
 the viewing!
