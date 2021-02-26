@@ -1,4 +1,4 @@
-# showcase
+# Vue.js Payment Gateway Showcase
 
 ## Project setup
 ```
