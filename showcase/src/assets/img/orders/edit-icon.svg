@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>12CB002B-3788-4FB1-9C17-34FA8D893BC3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M14.8515452,15.6563635 L4.34383632,15.6563635 L4.34383632,5.14867286 L8.3852635,5.14867286 L10.0018271,3.53210926 L4.34383632,3.53210926 C3.45472816,3.53210926 2.72727273,4.25956379 2.72727273,5.14867286 L2.72727273,15.6563635 C2.72727273,16.5454544 3.45472816,17.2729089 4.34383632,17.2729089 L14.8515452,17.2729089 C15.740636,17.2729089 16.4680906,16.5454544 16.4680906,15.6563635 L16.4680906,9.99838182 L14.8515452,11.6149454 L14.8515452,15.6563635 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Minor/Mono/Export-edit-copy-2" transform="translate(0.958115, 0.000000)">
+            <g id="Icon/Basic/Task">
+                <path d="M17.0231789,5.03586801 L14.9482323,2.95552367 C14.7927088,2.80943252 14.5874647,2.72784555 14.3740332,2.72727273 C14.1439319,2.72742906 13.9233121,2.81891325 13.7606842,2.9816095 L9.01701683,7.72270771 C8.88821871,7.84927842 8.80357473,8.01390183 8.77559222,8.19225251 L8.18181818,11.8181818 L11.8227623,11.2116864 C12.0012096,11.1837191 12.1659222,11.099121 12.2925615,10.9703926 L17.0297039,6.23581583 C17.3562592,5.90136897 17.3533521,5.36674763 17.0231789,5.03586801 Z M9.09090909,10.1383399 L9.26218709,9.09090909 L10.9090909,10.7378129 L9.87483531,10.9090909 L9.09090909,10.1383399 Z" id="Shape" fill="#442B2D" fill-rule="nonzero"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="task" fill="#442B2D" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Color-Color/Grey-2" mask="url(#mask-2)" fill="#442B2D" fill-rule="nonzero">
+                    <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
