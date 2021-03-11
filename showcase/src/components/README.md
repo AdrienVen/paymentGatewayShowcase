@@ -1,6 +1,6 @@
 #Vue files
 
-Here you will find 3 main components that I built myself with a wireframes provided to me by my previous employer.
+Here you will find 3 main components that I built from wireframes provided by my previous employer.
 
 Considering this was my first experience with Javascript, node.js, Vue.js and Pug, I'd say that was a decent result.
 
