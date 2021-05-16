@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vue/cli": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
     "authorizenet": "^1.0.7",
     "core-js": "^3.6.5",
     "express": "^4.17.1",
