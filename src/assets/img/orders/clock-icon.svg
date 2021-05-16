@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>DFAD4D93-71C6-4BCD-B91A-87D96F34A836</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.5004009,2.86363636 C6.28232182,2.86363636 2.86363636,6.28232182 2.86363636,10.4995991 C2.86363636,14.7176591 6.28232182,18.1363636 10.5004009,18.1363636 C14.7168955,18.1363636 18.1363636,14.7176591 18.1363636,10.4995991 C18.1363636,6.28232182 14.7168955,2.86363636 10.5004009,2.86363636 Z M10.4995989,16.5447549 C7.16124805,16.5447549 4.45446269,13.8387139 4.45446269,10.4995992 C4.45446269,7.16125777 7.16045578,4.45446269 10.4995989,4.45446269 C13.8379496,4.45446269 16.5455177,7.16045596 16.5455177,10.4995992 C16.5455177,13.8379503 13.8379496,16.5447549 10.4995989,16.5447549 Z M11.4545455,5.72727273 L9.86371912,5.72727273 L9.86371912,10.6946316 L7.04318053,12.3236302 L7.8385937,13.7012588 L11.1117205,11.8105907 C11.3010355,11.7016198 11.4545455,11.4343661 11.4545455,11.2156225 C11.4545455,8.50230808 11.4545455,9.26620214 11.4545455,5.72727273 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Basic/Clock" transform="translate(0.790576, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="clock" fill="#44566C" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Color-Color/Grey-2" mask="url(#mask-2)" fill="#000000" fill-opacity="0.38" fill-rule="nonzero">
+                <rect id="Rectangle" x="0" y="0" width="21" height="21"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
