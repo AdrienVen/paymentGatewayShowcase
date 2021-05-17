@@ -114,12 +114,20 @@ export default {
   z-index: 100;
 }
 
+.menu a {
+  font-size: 14px;
+  text-align: left;
+  color : #2c3e50;
+  text-underline: none;
+}
+
 .menu img {
   float:left;
 }
 .signOut {
   color: #ff6132;
   display: flex;
+  text-underline: #ff6132;
 }
 
 .signOut img {

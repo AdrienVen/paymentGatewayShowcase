@@ -83,7 +83,6 @@
 				strong TODAY'S TOTAL:
 			.price(id="total")
 				p $21200.00
-	.test(id="testDiv" style= "flex")
 				
 </template>
 
@@ -346,7 +345,7 @@ hr {
   border: 1px solid grey;
   width: 487px;
   padding: 23px;
-  height: 500px;
+  height: fit-content;
   margin-right: 24px;
   transition: height 850ms;
 }
