@@ -70,55 +70,20 @@ function createSubscription(first_name, last_name, cardNumber, cardDate, cardCvv
 
     var response = new ApiContracts.ARBCreateSubscriptionResponse(apiResponse)
 
-    console.log(JSON.stringify(response, null, 2))
-
     if (response != null) {
       if (response.getMessages().getResultCode() == ApiContracts.MessageTypeEnum.OK) {
-        console.log("Subscription Id : " + response.getSubscriptionId())
-        console.log(
-          "Message Code : " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getCode()
-        )
-        console.log(
-          "Message Text : " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getText()
-        )
         return response.getSubscriptionId
       } else {
-        console.log("Result Code: " + response.getMessages().getResultCode())
-        console.log(
-          "Error Code: " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getCode()
-        )
-        console.log(
-          "Error message: " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getText()
-        )
         return false
       }
     } else {
-      console.log("Null Response.")
       return false
     }
   })
 }
 
 if (require.main === module) {
-  createSubscription(function() {
-    console.log("createSubscription call complete.")
-  })
+  createSubscription(function() {})
 }
 
 export default createSubscription
