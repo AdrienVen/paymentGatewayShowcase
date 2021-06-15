@@ -11,9 +11,7 @@ function cancelSubscription(subscriptionId) {
 
   var cancelRequest = new ApiContracts.ARBCancelSubscriptionRequest();
   cancelRequest.setMerchantAuthentication(merchantAuthenticationType);
-  cancelRequest.setSubscriptionId(7236920);
-
-  console.log(JSON.stringify(cancelRequest.getJSON(), null, 2));
+  cancelRequest.setSubscriptionId(subscriptionId);
 
   var ctrl = new ApiControllers.ARBCancelSubscriptionController(cancelRequest.getJSON());
 
@@ -22,51 +20,20 @@ function cancelSubscription(subscriptionId) {
 
     var response = new ApiContracts.ARBCancelSubscriptionResponse(apiResponse);
 
-    console.log(JSON.stringify(response, null, 2));
-
     if (response != null) {
       if (response.getMessages().getResultCode() == ApiContracts.MessageTypeEnum.OK) {
-        console.log(
-          "Message Code : " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getCode()
-        );
-        console.log(
-          "Message Text : " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getText()
-        );
+		return true
       } else {
-        console.log("Result Code: " + response.getMessages().getResultCode());
-        console.log(
-          "Error Code: " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getCode()
-        );
-        console.log(
-          "Error message: " +
-            response
-              .getMessages()
-              .getMessage()[0]
-              .getText()
-        );
-      }
+		return false
+		}
     } else {
-      console.log("Null Response.");
-    }
+		return false
+	}
   })
 }
 
 if (require.main === module) {
-  cancelSubscription("7236920", function() {
-    console.log("cancelSubscription call complete.");
-  });
+  cancelSubscription("7236920", function() {});
 }
 
 export default cancelSubscription;

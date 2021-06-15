@@ -18,7 +18,7 @@ export default {
   methods: {
     vanish() {
       document.getElementById("cancel").style.display = "none"
-      //cancelSubscription(<SUBSCRIPTION_ID>)
+      cancelSubscription("7236920")
     }
   }
 }
