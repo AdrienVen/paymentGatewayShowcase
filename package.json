@@ -3,15 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service-global serve",
-    "build": "vue-cli-service-global build",
-    "lint": "vue-cli-service-global lint"
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@vue/cli": "^4.5.13",
     "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.0",
-    "@vue/cli-service": "^4.5.13",
     "@vue/cli-service-global": "^4.5.13",
     "authorizenet": "^1.0.7",
     "core-js": "^3.6.5",
@@ -23,7 +22,6 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.0",
-    "@vue/cli-service": "^4.5.13",
 	"@vue/cli-service-global": "^4.5.13",
     "babel-eslint": "^10.1.0",
     "eslint": "^4.19.1",
