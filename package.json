@@ -12,9 +12,10 @@
   },
   "dependencies": {
     "@vue/cli": "^4.5.13",
-	"@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.0",
     "@vue/cli-service-global": "^4.5.13",
+	"eslint": "^5.16.0",
     "authorizenet": "^1.0.7",
     "core-js": "^3.6.5",
     "pug": "^3.0.2",
