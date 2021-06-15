@@ -4,7 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/src/assets/img" />
+      <excludeFolder url="file://$MODULE_DIR$/dist" />
     </content>
+    <content url="file://$MODULE_DIR$/dist" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
