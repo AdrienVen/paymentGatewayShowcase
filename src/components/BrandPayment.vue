@@ -346,6 +346,7 @@ hr {
   width: 487px;
   padding: 23px;
   height: fit-content;
+  min-height: 600px;
   margin-right: 24px;
   transition: height 850ms;
 }

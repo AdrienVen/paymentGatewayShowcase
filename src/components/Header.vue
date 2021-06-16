@@ -6,8 +6,7 @@
 .brand-settings-header
 	.left_col
 		a(href="./main")
-			//img(src="@/assets/logo.png" style = "width:20px;")
-			p Brand logo
+			img(src="@/assets/logo.svg" style = "width:20px;")
 			//Place search
 	.right_col
 		a(href="./dashboard")
@@ -36,7 +35,7 @@
 		a(href="./messaging")
 			img(src="@/assets/img/icon/Inbox.svg")
 		.brandDropdown(v-on:click="showDropdown(dropDown)")
-			img(src='require("@/assets/img/icon/user.svg")' style = "max-width:24px; max-height:24px;")
+			img(src="@/assets/logo.svg" style = "max-width:24px; max-height:24px;")
 			p placeholder name
 			.menu(id="dropDown" style="display:none;")
 				img(src="@/assets/img/icon/user.svg")
