@@ -1,8 +1,8 @@
 "use strict"
 
-var ApiContracts = require("authorizenet").APIContracts;
-var ApiControllers = require("authorizenet").APIControllers;
-var constants = require("./constants.js");
+const ApiContracts = () =>  import("authorizenet").APIContracts
+const ApiControllers = () => import("authorizenet").APIControllers
+const constants = () => import("./constants.js");
 
 function cancelSubscription(subscriptionId) {
   var merchantAuthenticationType = new ApiContracts.MerchantAuthenticationType();

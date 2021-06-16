@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import cancelSubscription from "../scripts/cancel-subscription"
+const cancelSubscription = () => import("../scripts/cancel-subscription.js")
 export default {
   methods: {
     vanish() {
