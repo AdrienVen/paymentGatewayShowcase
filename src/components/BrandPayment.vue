@@ -87,9 +87,9 @@
 </template>
 
 <script>
-import Modal from "./sub-components/error-modal"
-import Reward from "./sub-components/success-modal"
-import createSubscription from "./scripts/create-subscription.js"
+const Modal = () => import("./sub-components/error-modal")
+const Reward = () => import("./sub-components/success-modal")
+const createSubscription = () => import("./scripts/create-subscription.js")
 export default {
   components: {
     Modal,

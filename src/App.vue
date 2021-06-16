@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Header from "@/components/Header.vue"
-import BrandPayment from "@/components/BrandPayment";
+const Header = () => import("@/components/Header.vue")
+const BrandPayment = () => import("@/components/BrandPayment")
 
 export default {
   name: 'App',

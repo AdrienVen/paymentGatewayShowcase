@@ -87,8 +87,8 @@
 </template>
 
 <script>
-import Cancel from "@/components/brands/payment/Cancel"
-import SideNavigation from "@/components/brands/settings/settingsNavigation"
+const Cancel = () => import("@/components/brands/payment/Cancel")
+const SideNavigation = () => import("@/components/brands/settings/settingsNavigation")
 export default {
   components: {
     Cancel,

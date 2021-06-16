@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "NODE_OPTIONS=--max_old_space_size=4096 vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "NODE_OPTIONS=--max_old_space_size=4096 vue-cli-service lint"
+    "build": "vue-cli-service build --report",
+    "lint": "vue-cli-service lint"
   },
   "engines": {
     "node": "12.x"
@@ -18,7 +18,7 @@
     "authorizenet": "^1.0.7",
     "core-js": "^3.6.5",
     "eslint": "^5.16.0",
-	"eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^6.2.2",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "serve-static": "^1.14.1",
@@ -27,7 +27,8 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.4.2"
   },
   "eslintConfig": {
     "root": true,
