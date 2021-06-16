@@ -6,7 +6,7 @@
 .brand-settings-header
 	.left_col
 		a(href="./main")
-			img(src="@/assets/logo.svg" style = "width:20px;")
+			img(src="@/assets/logo.png" style = "width:20px;")
 			//Place search
 	.right_col
 		a(href="./dashboard")
