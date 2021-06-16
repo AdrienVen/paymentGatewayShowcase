@@ -35,7 +35,7 @@
 		a(href="./messaging")
 			img(src="@/assets/img/icon/Inbox.svg")
 		.brandDropdown(v-on:click="showDropdown(dropDown)")
-			img(src="@/assets/logo.svg" style = "max-width:24px; max-height:24px;")
+			img(src="@/assets/logo.png" style = "max-width:24px; max-height:24px;")
 			p placeholder name
 			.menu(id="dropDown" style="display:none;")
 				img(src="@/assets/img/icon/user.svg")
