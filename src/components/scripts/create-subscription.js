@@ -1,9 +1,11 @@
 "use strict"
 
-var ApiContracts = require("authorizenet").APIContracts
-var ApiControllers = require("authorizenet").APIControllers
-var utils = require("./utils.js")
-var constants = require("./constants.js")
+//const ApiContracts = () =>  import("authorizenet").APIContracts
+//const APIControllers = () => import("authorizenet").APIControllers
+var ApiContracts = require("authorizenet").APIContracts;
+var ApiControllers = require("authorizenet").APIControllers;
+var constants = require("./constants.js");
+var utils = require("./utils.js");
 
 function createSubscription(first_name, last_name, cardNumber, cardDate, cardCvv, email= "") {
   var merchantAuthenticationType = new ApiContracts.MerchantAuthenticationType()

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c1404"],{"44f4":function(t,e,p){"use strict";var n={endpoint:{sandbox:"https://apitest.authorize.net/xml/v1/request.api",production:"https://api2.authorize.net/xml/v1/request.api"}};t.exports=n}}]);
+//# sourceMappingURL=chunk-2d0c1404.f0674c98.js.map
